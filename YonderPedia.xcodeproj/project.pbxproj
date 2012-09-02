@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8416CD5F14DC9B40008981C8 /* WIkiArticleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416CD5E14DC9B40008981C8 /* WIkiArticleTableViewController.m */; };
+		843C988214DDD6BD004FA384 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843C988114DDD6BD004FA384 /* MapKit.framework */; };
+		8443711F14E0C94000B21EA9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8443711E14E0C94000B21EA9 /* Icon.png */; };
+		845163DD14DDD4C900546D5B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845163DA14DDD4C900546D5B /* MapViewController.m */; };
+		8465829914DD1FB700F92E23 /* WebWikiArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465829814DD1FB700F92E23 /* WebWikiArticleViewController.m */; };
+		846945AB14DE5708006B03A2 /* WebOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846945AA14DE5708006B03A2 /* WebOptionsTableViewController.m */; };
+		846945B114DE627E006B03A2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846945B014DE627E006B03A2 /* MessageUI.framework */; };
+		847EFED614DE702500ECC70C /* ArticleAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EFED514DE702500ECC70C /* ArticleAnnotation.m */; };
+		84A4A1E114E06C24009C93BF /* YonderPedia_im2-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A4A1E014E06C24009C93BF /* YonderPedia_im2-1.jpg */; };
+		84AA69BC14DB737600F52F7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA69BB14DB737600F52F7D /* UIKit.framework */; };
+		84AA69BE14DB737600F52F7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA69BD14DB737600F52F7D /* Foundation.framework */; };
+		84AA69C014DB737600F52F7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA69BF14DB737600F52F7D /* CoreGraphics.framework */; };
+		84AA69C614DB737600F52F7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84AA69C414DB737600F52F7D /* InfoPlist.strings */; };
+		84AA69C814DB737600F52F7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA69C714DB737600F52F7D /* main.m */; };
+		84AA69CC14DB737600F52F7D /* YonderPediaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA69CB14DB737600F52F7D /* YonderPediaAppDelegate.m */; };
+		84AA69CF14DB737600F52F7D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AA69CD14DB737600F52F7D /* MainStoryboard.storyboard */; };
+		84AA69E714DB7AC900F52F7D /* WikiGeolocationArticleFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA69E614DB7AC900F52F7D /* WikiGeolocationArticleFetcher.m */; };
+		84AA69ED14DB7CE600F52F7D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA69EC14DB7CE600F52F7D /* CoreLocation.framework */; };
+		84D5715E14DCAD51006FD882 /* RootModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5715D14DCAD51006FD882 /* RootModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8416CD5D14DC9B40008981C8 /* WIkiArticleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIkiArticleTableViewController.h; sourceTree = "<group>"; };
+		8416CD5E14DC9B40008981C8 /* WIkiArticleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIkiArticleTableViewController.m; sourceTree = "<group>"; };
+		8431BF8314E0BECC001A6873 /* YonderPedia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = YonderPedia.entitlements; sourceTree = "<group>"; };
+		843C988114DDD6BD004FA384 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8443711E14E0C94000B21EA9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		845163DA14DDD4C900546D5B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		845163DB14DDD4C900546D5B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		8465829714DD1FB700F92E23 /* WebWikiArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebWikiArticleViewController.h; sourceTree = "<group>"; };
+		8465829814DD1FB700F92E23 /* WebWikiArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebWikiArticleViewController.m; sourceTree = "<group>"; };
+		846945A914DE5708006B03A2 /* WebOptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebOptionsTableViewController.h; sourceTree = "<group>"; };
+		846945AA14DE5708006B03A2 /* WebOptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebOptionsTableViewController.m; sourceTree = "<group>"; };
+		846945B014DE627E006B03A2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		846A3FD014DCA3EB003A92A0 /* WikiArticleTableDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiArticleTableDataSourceProtocol.h; sourceTree = "<group>"; };
+		84752F4D14DDDDE3009779B8 /* WikiArticleMapDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiArticleMapDataSourceProtocol.h; sourceTree = "<group>"; };
+		847EFED414DE702500ECC70C /* ArticleAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleAnnotation.h; sourceTree = "<group>"; };
+		847EFED514DE702500ECC70C /* ArticleAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleAnnotation.m; sourceTree = "<group>"; };
+		84A4A1E014E06C24009C93BF /* YonderPedia_im2-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "YonderPedia_im2-1.jpg"; sourceTree = "<group>"; };
+		84AA69B714DB737600F52F7D /* YonderPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YonderPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AA69BB14DB737600F52F7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84AA69BD14DB737600F52F7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84AA69BF14DB737600F52F7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84AA69C314DB737600F52F7D /* YonderPedia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YonderPedia-Info.plist"; sourceTree = "<group>"; };
+		84AA69C514DB737600F52F7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84AA69C714DB737600F52F7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84AA69C914DB737600F52F7D /* YonderPedia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YonderPedia-Prefix.pch"; sourceTree = "<group>"; };
+		84AA69CA14DB737600F52F7D /* YonderPediaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YonderPediaAppDelegate.h; sourceTree = "<group>"; };
+		84AA69CB14DB737600F52F7D /* YonderPediaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YonderPediaAppDelegate.m; sourceTree = "<group>"; };
+		84AA69CE14DB737600F52F7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84AA69E514DB7AC900F52F7D /* WikiGeolocationArticleFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiGeolocationArticleFetcher.h; sourceTree = "<group>"; };
+		84AA69E614DB7AC900F52F7D /* WikiGeolocationArticleFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiGeolocationArticleFetcher.m; sourceTree = "<group>"; };
+		84AA69EC14DB7CE600F52F7D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		84D5715C14DCAD51006FD882 /* RootModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootModalViewController.h; sourceTree = "<group>"; };
+		84D5715D14DCAD51006FD882 /* RootModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AA69B414DB737600F52F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA69BC14DB737600F52F7D /* UIKit.framework in Frameworks */,
+				84AA69BE14DB737600F52F7D /* Foundation.framework in Frameworks */,
+				84AA69C014DB737600F52F7D /* CoreGraphics.framework in Frameworks */,
+				84AA69ED14DB7CE600F52F7D /* CoreLocation.framework in Frameworks */,
+				843C988214DDD6BD004FA384 /* MapKit.framework in Frameworks */,
+				846945B114DE627E006B03A2 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845163C114DD8AA900546D5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8443711E14E0C94000B21EA9 /* Icon.png */,
+				84A4A1E014E06C24009C93BF /* YonderPedia_im2-1.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		845EA80B14DBAB5D002E3FBA /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84AA69CA14DB737600F52F7D /* YonderPediaAppDelegate.h */,
+				84AA69CB14DB737600F52F7D /* YonderPediaAppDelegate.m */,
+				84D5715C14DCAD51006FD882 /* RootModalViewController.h */,
+				84D5715D14DCAD51006FD882 /* RootModalViewController.m */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		846945A414DE565B006B03A2 /* WebWikiArticleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8465829714DD1FB700F92E23 /* WebWikiArticleViewController.h */,
+				8465829814DD1FB700F92E23 /* WebWikiArticleViewController.m */,
+				846945A914DE5708006B03A2 /* WebOptionsTableViewController.h */,
+				846945AA14DE5708006B03A2 /* WebOptionsTableViewController.m */,
+			);
+			name = WebWikiArticleViewController;
+			sourceTree = "<group>";
+		};
+		84AA69AC14DB737600F52F7D = {
+			isa = PBXGroup;
+			children = (
+				84AA69CD14DB737600F52F7D /* MainStoryboard.storyboard */,
+				84AA69C114DB737600F52F7D /* YonderPedia */,
+				84AA69BA14DB737600F52F7D /* Frameworks */,
+				84AA69B814DB737600F52F7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AA69B814DB737600F52F7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AA69B714DB737600F52F7D /* YonderPedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AA69BA14DB737600F52F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				846945B014DE627E006B03A2 /* MessageUI.framework */,
+				843C988114DDD6BD004FA384 /* MapKit.framework */,
+				84AA69EC14DB7CE600F52F7D /* CoreLocation.framework */,
+				84AA69BB14DB737600F52F7D /* UIKit.framework */,
+				84AA69BD14DB737600F52F7D /* Foundation.framework */,
+				84AA69BF14DB737600F52F7D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84AA69C114DB737600F52F7D /* YonderPedia */ = {
+			isa = PBXGroup;
+			children = (
+				8431BF8314E0BECC001A6873 /* YonderPedia.entitlements */,
+				845EA80B14DBAB5D002E3FBA /* RootViewController */,
+				84AA69E014DB753800F52F7D /* MapViewController */,
+				84AA69DF14DB750C00F52F7D /* WIkiArticleTableViewController */,
+				846945A414DE565B006B03A2 /* WebWikiArticleViewController */,
+				84AA69E114DB754B00F52F7D /* WikipediaGeolocationArticleFetcher */,
+				845163C114DD8AA900546D5B /* Resources */,
+				84AA69C214DB737600F52F7D /* Supporting Files */,
+			);
+			path = YonderPedia;
+			sourceTree = "<group>";
+		};
+		84AA69C214DB737600F52F7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AA69C314DB737600F52F7D /* YonderPedia-Info.plist */,
+				84AA69C414DB737600F52F7D /* InfoPlist.strings */,
+				84AA69C714DB737600F52F7D /* main.m */,
+				84AA69C914DB737600F52F7D /* YonderPedia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AA69DF14DB750C00F52F7D /* WIkiArticleTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8416CD5D14DC9B40008981C8 /* WIkiArticleTableViewController.h */,
+				8416CD5E14DC9B40008981C8 /* WIkiArticleTableViewController.m */,
+			);
+			name = WIkiArticleTableViewController;
+			sourceTree = "<group>";
+		};
+		84AA69E014DB753800F52F7D /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				847EFED414DE702500ECC70C /* ArticleAnnotation.h */,
+				847EFED514DE702500ECC70C /* ArticleAnnotation.m */,
+				845163DB14DDD4C900546D5B /* MapViewController.h */,
+				845163DA14DDD4C900546D5B /* MapViewController.m */,
+			);
+			name = MapViewController;
+			sourceTree = "<group>";
+		};
+		84AA69E114DB754B00F52F7D /* WikipediaGeolocationArticleFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				846A3FD014DCA3EB003A92A0 /* WikiArticleTableDataSourceProtocol.h */,
+				84752F4D14DDDDE3009779B8 /* WikiArticleMapDataSourceProtocol.h */,
+				84AA69E514DB7AC900F52F7D /* WikiGeolocationArticleFetcher.h */,
+				84AA69E614DB7AC900F52F7D /* WikiGeolocationArticleFetcher.m */,
+			);
+			name = WikipediaGeolocationArticleFetcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AA69B614DB737600F52F7D /* YonderPedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AA69D514DB737600F52F7D /* Build configuration list for PBXNativeTarget "YonderPedia" */;
+			buildPhases = (
+				84AA69B314DB737600F52F7D /* Sources */,
+				84AA69B414DB737600F52F7D /* Frameworks */,
+				84AA69B514DB737600F52F7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YonderPedia;
+			productName = YonderPedia;
+			productReference = 84AA69B714DB737600F52F7D /* YonderPedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AA69AE14DB737600F52F7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Shields Consulting";
+			};
+			buildConfigurationList = 84AA69B114DB737600F52F7D /* Build configuration list for PBXProject "YonderPedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84AA69AC14DB737600F52F7D;
+			productRefGroup = 84AA69B814DB737600F52F7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AA69B614DB737600F52F7D /* YonderPedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AA69B514DB737600F52F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA69C614DB737600F52F7D /* InfoPlist.strings in Resources */,
+				84AA69CF14DB737600F52F7D /* MainStoryboard.storyboard in Resources */,
+				84A4A1E114E06C24009C93BF /* YonderPedia_im2-1.jpg in Resources */,
+				8443711F14E0C94000B21EA9 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AA69B314DB737600F52F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA69C814DB737600F52F7D /* main.m in Sources */,
+				84AA69CC14DB737600F52F7D /* YonderPediaAppDelegate.m in Sources */,
+				84AA69E714DB7AC900F52F7D /* WikiGeolocationArticleFetcher.m in Sources */,
+				8416CD5F14DC9B40008981C8 /* WIkiArticleTableViewController.m in Sources */,
+				84D5715E14DCAD51006FD882 /* RootModalViewController.m in Sources */,
+				8465829914DD1FB700F92E23 /* WebWikiArticleViewController.m in Sources */,
+				845163DD14DDD4C900546D5B /* MapViewController.m in Sources */,
+				846945AB14DE5708006B03A2 /* WebOptionsTableViewController.m in Sources */,
+				847EFED614DE702500ECC70C /* ArticleAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84AA69C414DB737600F52F7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AA69C514DB737600F52F7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84AA69CD14DB737600F52F7D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AA69CE14DB737600F52F7D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = YonderPedia;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AA69D314DB737600F52F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84AA69D414DB737600F52F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AA69D614DB737600F52F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos5.0]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YonderPedia/YonderPedia-Prefix.pch";
+				INFOPLIST_FILE = "YonderPedia/YonderPedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos5.0]" = "";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84AA69D714DB737600F52F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos5.0]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YonderPedia/YonderPedia-Prefix.pch";
+				INFOPLIST_FILE = "YonderPedia/YonderPedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos5.0]" = "";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AA69B114DB737600F52F7D /* Build configuration list for PBXProject "YonderPedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AA69D314DB737600F52F7D /* Debug */,
+				84AA69D414DB737600F52F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AA69D514DB737600F52F7D /* Build configuration list for PBXNativeTarget "YonderPedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AA69D614DB737600F52F7D /* Debug */,
+				84AA69D714DB737600F52F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AA69AE14DB737600F52F7D /* Project object */;
+}
